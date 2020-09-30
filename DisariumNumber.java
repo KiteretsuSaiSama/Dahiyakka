@@ -7,7 +7,7 @@ public class Example11 {
             System.out.print("Input a number : ");
             int num = sc.nextInt();
             int copy = num, d = 0, sum = 0;
-            String s ;  //num is converted to string
+            String s=Integer.toString(num);  // integer converted to string
             int len = s.length();  
              
             while(copy>0)
