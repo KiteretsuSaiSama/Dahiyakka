@@ -1,4 +1,4 @@
-//package name missing
+import java.util.*;
 public class MagicNumberCheck
 {
     public static void main(String args[])
