@@ -1,4 +1,4 @@
-//package missing
+import java.util.*;// package name added
 public class Example11 {
 
     public static void main(String args[]);
@@ -24,4 +24,3 @@ public class Example11 {
                 System.out.println("Not a Disarium Number.");
         }
     }
-//= Integer.toString(num)
