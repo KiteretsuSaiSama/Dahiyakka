@@ -3,9 +3,9 @@ public class MagicNumberCheck
 {
     public static void main(String args[])
     {
-      // add scanner class syntax
+      Scanner ob=new Scanner(System.in);
         System.out.println("Enter the number to be checked.");
-        int n=.nextInt(); // correct this 
+        int n=ob.nextInt(); 
         int sum=0,num=n;
         while(num>9)
         {
