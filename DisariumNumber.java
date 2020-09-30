@@ -1,13 +1,13 @@
-//package missing
+import java.util.*;
 public class Example11 {
 
-    public static void main(String args[]);
-        {
-            Scanner sc = new Scanner(System.in)
+    public static void main(String args[]){
+        
+            Scanner sc = new Scanner(System.in);
             System.out.print("Input a number : ");
             int num = sc.nextInt();
             int copy = num, d = 0, sum = 0;
-            String s ;  //num is converted to string
+            String s = Integer.toString(num);  //num is converted to string
             int len = s.length();  
              
             while(copy>0)
@@ -24,4 +24,3 @@ public class Example11 {
                 System.out.println("Not a Disarium Number.");
         }
     }
-//= Integer.toString(num)
