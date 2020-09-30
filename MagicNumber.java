@@ -1,4 +1,3 @@
-//package name missing
 import java.util.*;
 public class MagicNumberCheck
 {
@@ -7,7 +6,7 @@ public class MagicNumberCheck
       
         Scanner in = in.nextInt();
         System.out.println("Enter the number to be checked.");
-        int n=in.nextInt(); // correct this 
+        int n=in.nextInt();
         int sum=0,num=n;
         while(num>9)
         {
