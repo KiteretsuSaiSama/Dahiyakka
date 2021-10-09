@@ -25,7 +25,6 @@ int main()
         cin>>s;
         string s1, s2;
         //complete the program
-                //complete the program
         char c = 'a';
         int length = s.length();
         int first[26] {0};
