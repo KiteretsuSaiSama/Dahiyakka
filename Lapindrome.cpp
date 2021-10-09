@@ -25,6 +25,25 @@ int main()
         cin>>s;
         string s1, s2;
         //complete the program
+                //complete the program
+        char c = 'a';
+        int length = s.length();
+        int first[26] {0};
+        int last[26] {0};
+        for (int i = 0; i < length/2; i++)
+                ++first[s[i]-'a'];
+        
+        for (int i = (length+1)/2; i < length; i++)
+                 ++last[s[i]-'a'];
+        for (int i = 0; i < 26; i++)
+        {
+            while (first[i]--)
+                s1.push_back(c);
+            while (last[i]--)
+                s2.push_back(c);
+            ++c;
+        }
+        //end of program
        if(s1.compare(s2)==0) cout <<"YES"<<endl;
         else cout<<"NO"<<endl;
     }
